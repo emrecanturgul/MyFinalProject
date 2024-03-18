@@ -45,7 +45,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
-        {
+        { 
             using (NorthwindContext context = new NorthwindContext())
             {
 
