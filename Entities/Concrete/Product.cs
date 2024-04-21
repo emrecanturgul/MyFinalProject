@@ -11,6 +11,7 @@ namespace Entities.Concrete
     public class Product : IEntity
     {
         //çıplak class kalmasın 
+        //DTO = data transformation object 
 
         public int ProductId { get; set; }
         public int CategoryId { get; set; }
